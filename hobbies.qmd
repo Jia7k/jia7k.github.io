@@ -2,12 +2,25 @@
 title: "My Hobbies"
 ---
 
-## Photography / Cycling / Cooking
+## Fixed-Gear Cycling
 
-I spend my free time exploring...
+Beyond coding and studying, my main passion is fixed-gear cycling (Track bikes). Unlike standard road bikes, a fixed-gear bike has no freewheel—meaning if the bike is moving, the pedals are turning.
 
-### Why I enjoy this
-1.  It helps me relax.
-2.  It challenges me technically.
+![](images/bike.jpg){width=100% fig-align="center"}
 
-> "A hobby is not just a pastime, but a way to recharge."
+### My Ride: Cinelli Vigorelli Alu 2018
+I currently ride a **Cinelli Vigorelli**, a frame known for its aggressive geometry and track heritage. 
+
+**My Current Setup:**
+* **Frame:** Cinelli Vigorelli Alu (2018)
+* **Type:** Fixed Gear / Track
+* **Riding Style:** Urban & Track Training
+
+### Why I Ride
+> "Cycling is the closest you can get to flying while remaining on the ground."
+
+Riding fixed gear offers a unique connection between the rider and the road. It requires constant awareness and physical control, which I find to be the perfect mental reset after a long day of programming.
+
+### Other Interests
+* **Fitness & Nutrition:** I actively track my macros and training metrics to optimize performance (as seen on my [Data Visualization](dataviz.qmd) page).
+* **Tech tinkering:** I enjoy messing around with automated scripts and bots in my spare time.

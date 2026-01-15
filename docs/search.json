@@ -4,14 +4,14 @@
     "href": "index.html",
     "title": "Welcome",
     "section": "",
-    "text": "I am currently a student at SIT (Singapore Institute of Technology). This website serves as a portfolio of my technical projects, data visualization work, and learning reflections.\n\n\nI have a strong interest in software development and automation. My work often involves building tools that solve real-world problems, such as automating news delivery or analyzing personal data trends.\n\n\n\n\n\n\n\n\n\nProject Page: A deep dive into my Tele-Forex-News-Bot, a Node.js application deployed on Render.\nData Visualization: An analysis of my personal fitness and nutrition metrics using Python.\nReflection: My thoughts on using Generative AI to accelerate development workflows.\n\n\n\n\nFeel free to reach out if you’d like to discuss code, gym stats, or automation projects!"
+    "text": "I am currently a student at SIT (Singapore Institute of Technology). This website serves as a portfolio of my technical projects, data visualization work, and learning reflections.\n\n\nI have a strong interest in software development and automation. My work often involves building tools that solve real-world problems, such as automating news delivery or analyzing personal data trends.\n\n\n\n\n\n\n\n\n\nProject Page: A deep dive into my Tele-Forex-News-Bot, a Node.js application deployed on Render.\nData Visualization: An analysis of my personal fitness and nutrition metrics using Python.\nHobbies: My hobbies and how it relates to my projects.\nReflection: My thoughts on using Generative AI to accelerate development workflows.\n\n\n\n\nFeel free to reach out if you’d like to discuss code, gym stats, or automation projects!"
   },
   {
     "objectID": "index.html#hello-im-jia-rong",
     "href": "index.html#hello-im-jia-rong",
     "title": "Welcome",
     "section": "",
-    "text": "I am currently a student at SIT (Singapore Institute of Technology). This website serves as a portfolio of my technical projects, data visualization work, and learning reflections.\n\n\nI have a strong interest in software development and automation. My work often involves building tools that solve real-world problems, such as automating news delivery or analyzing personal data trends.\n\n\n\n\n\n\n\n\n\nProject Page: A deep dive into my Tele-Forex-News-Bot, a Node.js application deployed on Render.\nData Visualization: An analysis of my personal fitness and nutrition metrics using Python.\nReflection: My thoughts on using Generative AI to accelerate development workflows.\n\n\n\n\nFeel free to reach out if you’d like to discuss code, gym stats, or automation projects!"
+    "text": "I am currently a student at SIT (Singapore Institute of Technology). This website serves as a portfolio of my technical projects, data visualization work, and learning reflections.\n\n\nI have a strong interest in software development and automation. My work often involves building tools that solve real-world problems, such as automating news delivery or analyzing personal data trends.\n\n\n\n\n\n\n\n\n\nProject Page: A deep dive into my Tele-Forex-News-Bot, a Node.js application deployed on Render.\nData Visualization: An analysis of my personal fitness and nutrition metrics using Python.\nHobbies: My hobbies and how it relates to my projects.\nReflection: My thoughts on using Generative AI to accelerate development workflows.\n\n\n\n\nFeel free to reach out if you’d like to discuss code, gym stats, or automation projects!"
   },
   {
     "objectID": "dataviz.html",
@@ -32,7 +32,7 @@
     "href": "hobbies.html",
     "title": "My Hobbies",
     "section": "",
-    "text": "I spend my free time exploring…\n\n\n\nIt helps me relax.\nIt challenges me technically.\n\n\n“A hobby is not just a pastime, but a way to recharge.”"
+    "text": "Beyond coding and studying, my main passion is fixed-gear cycling (Track bikes). Unlike standard road bikes, a fixed-gear bike has no freewheel—meaning if the bike is moving, the pedals are turning.\n\n\n\n\n\n\n\nI currently ride a Cinelli Vigorelli, a frame known for its aggressive geometry and track heritage.\nMy Current Setup: * Frame: Cinelli Vigorelli Alu (2018) * Type: Fixed Gear / Track * Riding Style: Urban & Track Training\n\n\n\n\n“Cycling is the closest you can get to flying while remaining on the ground.”\n\nRiding fixed gear offers a unique connection between the rider and the road. It requires constant awareness and physical control, which I find to be the perfect mental reset after a long day of programming.\n\n\n\n\nFitness & Nutrition: I actively track my macros and training metrics to optimize performance (as seen on my Data Visualization page).\nTech tinkering: I enjoy messing around with automated scripts and bots in my spare time."
   },
   {
     "objectID": "hobbies.html#photography-cycling-cooking",
@@ -117,5 +117,12 @@
     "title": "Project: Forex News Bot",
     "section": "Future Improvements",
     "text": "Future Improvements\nI plan to add sentiment analysis to the news feeds, allowing the bot to tag news as “Bullish” or “Bearish” automatically."
+  },
+  {
+    "objectID": "hobbies.html#fixed-gear-cycling",
+    "href": "hobbies.html#fixed-gear-cycling",
+    "title": "My Hobbies",
+    "section": "",
+    "text": "Beyond coding and studying, my main passion is fixed-gear cycling (Track bikes). Unlike standard road bikes, a fixed-gear bike has no freewheel—meaning if the bike is moving, the pedals are turning.\n\n\n\n\n\n\n\nI currently ride a Cinelli Vigorelli, a frame known for its aggressive geometry and track heritage.\nMy Current Setup: * Frame: Cinelli Vigorelli Alu (2018) * Type: Fixed Gear / Track * Riding Style: Urban & Track Training\n\n\n\n\n“Cycling is the closest you can get to flying while remaining on the ground.”\n\nRiding fixed gear offers a unique connection between the rider and the road. It requires constant awareness and physical control, which I find to be the perfect mental reset after a long day of programming.\n\n\n\n\nFitness & Nutrition: I actively track my macros and training metrics to optimize performance (as seen on my Data Visualization page).\nTech tinkering: I enjoy messing around with automated scripts and bots in my spare time."
   }
 ]

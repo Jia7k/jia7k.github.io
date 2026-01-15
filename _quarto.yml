@@ -12,6 +12,8 @@ website:
         text: Project
       - href: dataviz.qmd
         text: Data Viz
+      - href: hobbies.qmd
+        text: Hobbies
       - href: reflection.qmd
         text: Reflection
   page-footer:
