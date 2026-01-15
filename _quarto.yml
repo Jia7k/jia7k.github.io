@@ -11,7 +11,7 @@ website:
       - href: fyp.qmd
         text: Project
       - href: dataviz.qmd
-        text: Data Viz
+        text: Data Visualization
       - href: hobbies.qmd
         text: Hobbies
       - href: reflection.qmd
