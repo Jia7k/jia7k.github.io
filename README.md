@@ -7,8 +7,8 @@ This repository contains the source code for my personal portfolio website, buil
 The website is structured as follows:
 
 - **`index.qmd`**: The homepage introducing myself and my background.
-- **`project.qmd`**: A detailed showcase of my **Tele-Forex-News-Bot** (Node.js/Telegram API).
-- **`viz.qmd`**: A data visualization page analyzing my weekly fitness and caloric intake using Python.
+- **`fyp.qmd`**: A detailed showcase of my **Tele-Forex-News-Bot** (Node.js/Telegram API).
+- **`dataviz.qmd`**: A data visualization page analyzing my weekly fitness and caloric intake using Python.
 - **`reflection.qmd`**: A reflection on the role of Generative AI in my development workflow.
 - **`styles.css`**: Custom CSS for styling the navigation, buttons, and typography.
 - **`_quarto.yml`**: The main configuration file for site navigation and theme.
