@@ -14,7 +14,7 @@ I have a strong interest in software development and automation. My work often i
 ### What you will find here:
 
 * **[Project Page](project.qmd):** A deep dive into my **Tele-Forex-News-Bot**, a Node.js application deployed on Render.
-* **[Data Visualization](viz.qmd):** An analysis of my personal fitness and nutrition metrics using Python.
+* **[Data Visualization](dataviz.qmd):** An analysis of my personal fitness and nutrition metrics using Python.
 * **[Hobbies](hobbies.qmd):** My hobbies and how it relates to my projects.
 * **[Reflection](reflection.qmd):** My thoughts on using Generative AI to accelerate development workflows.
 
