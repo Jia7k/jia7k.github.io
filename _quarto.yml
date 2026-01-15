@@ -1,23 +1,38 @@
 project:
   type: website
-  output-dir: docs
-
 
 website:
-  title: "temp_website"
+  title: "My Portfolio"
   navbar:
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
+      - href: fyp.qmd
+        text: Project
+      - href: dataviz.qmd
+        text: Data Viz
+      - href: reflection.qmd
+        text: Reflection
+  page-footer:
+    background: "#2c3e50" # Dark slate to match your headings
+    foreground: "#ffffff" # White text
+    left: |
+      © 2026 [Liew Jia Rong]
+    center: |
+      Focus: Code, Cycling, & Data
+    right: 
+      - icon: github
+        href: https://github.com/Jia7k
+      - icon: linkedin
+        href: https://www.linkedin.com/in/liewjiarong7k/
+      - icon: telegram
+        href: https://t.me/jiacorrect
+
+
 
 format:
   html:
-    theme:
-      - cosmo
-      - brand
+    theme: cosmo
     css: styles.css
     toc: true
-
-
-
+    

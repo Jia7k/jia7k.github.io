@@ -1,0 +1,33 @@
+---
+title: "Project: Forex News Bot"
+---
+
+## Overview
+For this project, I developed the **Tele-Forex-News-Bot**, an automated tool designed to deliver real-time foreign exchange (Forex) news updates directly to users via Telegram.
+
+The goal was to create a low-latency notification system that helps traders stay updated with market-moving news without constantly refreshing websites.
+
+## Technical Architecture
+
+I built this application using a modern JavaScript stack and cloud deployment.
+
+* **Runtime:** Node.js
+* **Platform:** Telegram Bot API
+* **Deployment:** Render (Cloud Application Hosting)
+* **Version Control:** Git
+
+[View Code on GitHub](https://github.com/jia7k){.btn-primary}
+
+### Key Features
+1.  **Automated Fetching:** The bot scrapes/fetches financial news from configured sources.
+2.  **Instant Notifications:** Uses the Telegram API to push alerts immediately to the user's device.
+3.  **24/7 Uptime:** Deployed on Render to ensure the service runs continuously in the background.
+
+## Development Challenges
+
+> "One of the main challenges was managing the deployment pipeline on Render to ensure the bot automatically restarted if it crashed."
+
+I resolved this by configuring the build commands correctly in the Render dashboard and implementing robust error handling in the Node.js scripts to catch API failures gracefully.
+
+## Future Improvements
+I plan to add sentiment analysis to the news feeds, allowing the bot to tag news as "Bullish" or "Bearish" automatically.

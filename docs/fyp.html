@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Welcome – My Portfolio</title>
+<title>Project: Forex News Bot – My Portfolio</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -84,10 +84,13 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#hello-im-jia-rong" id="toc-hello-im-jia-rong" class="nav-link active" data-scroll-target="#hello-im-jia-rong">Hello, I’m Jia Rong</a>
+  <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a></li>
+  <li><a href="#technical-architecture" id="toc-technical-architecture" class="nav-link" data-scroll-target="#technical-architecture">Technical Architecture</a>
   <ul class="collapse">
-  <li><a href="#quick-intro" id="toc-quick-intro" class="nav-link" data-scroll-target="#quick-intro">Quick Intro</a></li>
+  <li><a href="#key-features" id="toc-key-features" class="nav-link" data-scroll-target="#key-features">Key Features</a></li>
   </ul></li>
+  <li><a href="#development-challenges" id="toc-development-challenges" class="nav-link" data-scroll-target="#development-challenges">Development Challenges</a></li>
+  <li><a href="#future-improvements" id="toc-future-improvements" class="nav-link" data-scroll-target="#future-improvements">Future Improvements</a></li>
   </ul>
 </nav>
 </nav>
@@ -100,7 +103,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Welcome</h1>
+<h1 class="title">Project: Forex News Bot</h1>
 </div>
 
 
@@ -117,24 +120,41 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="hello-im-jia-rong" class="level2">
-<h2 class="anchored" data-anchor-id="hello-im-jia-rong">Hello, I’m Jia Rong</h2>
-<p>I am currently a student at SIT studying Applied Computing (Fintech). This website documents my projects, visualizations, and learning journey.</p>
-<div class="quarto-figure quarto-figure-left">
-<figure class="figure">
-<p><img src="images/profile_photo.jpg" class="img-fluid quarto-figure quarto-figure-left figure-img" width="300"></p>
-</figure>
-</div>
-<section id="quick-intro" class="level3">
-<h3 class="anchored" data-anchor-id="quick-intro">Quick Intro</h3>
-<ul>
-<li><strong>Focus:</strong> I am passionate about Statistics and Economics.</li>
-<li><strong>Goal:</strong> aspiring to become a Quant trader.</li>
-</ul>
-<p>Check out my <a href="">Project Page</a> to see what I’ve been working on!</p>
-
-
+<section id="overview" class="level2">
+<h2 class="anchored" data-anchor-id="overview">Overview</h2>
+<p>For this project, I developed the <strong>Tele-Forex-News-Bot</strong>, an automated tool designed to deliver real-time foreign exchange (Forex) news updates directly to users via Telegram.</p>
+<p>The goal was to create a low-latency notification system that helps traders stay updated with market-moving news without constantly refreshing websites.</p>
 </section>
+<section id="technical-architecture" class="level2">
+<h2 class="anchored" data-anchor-id="technical-architecture">Technical Architecture</h2>
+<p>I built this application using a modern JavaScript stack and cloud deployment.</p>
+<ul>
+<li><strong>Runtime:</strong> Node.js</li>
+<li><strong>Platform:</strong> Telegram Bot API</li>
+<li><strong>Deployment:</strong> Render (Cloud Application Hosting)</li>
+<li><strong>Version Control:</strong> Git</li>
+</ul>
+<section id="key-features" class="level3">
+<h3 class="anchored" data-anchor-id="key-features">Key Features</h3>
+<ol type="1">
+<li><strong>Automated Fetching:</strong> The bot scrapes/fetches financial news from configured sources.</li>
+<li><strong>Instant Notifications:</strong> Uses the Telegram API to push alerts immediately to the user’s device.</li>
+<li><strong>24/7 Uptime:</strong> Deployed on Render to ensure the service runs continuously in the background.</li>
+</ol>
+</section>
+</section>
+<section id="development-challenges" class="level2">
+<h2 class="anchored" data-anchor-id="development-challenges">Development Challenges</h2>
+<blockquote class="blockquote">
+<p>“One of the main challenges was managing the deployment pipeline on Render to ensure the bot automatically restarted if it crashed.”</p>
+</blockquote>
+<p>I resolved this by configuring the build commands correctly in the Render dashboard and implementing robust error handling in the Node.js scripts to catch API failures gracefully.</p>
+</section>
+<section id="future-improvements" class="level2">
+<h2 class="anchored" data-anchor-id="future-improvements">Future Improvements</h2>
+<p>I plan to add sentiment analysis to the news feeds, allowing the bot to tag news as “Bullish” or “Bearish” automatically.</p>
+
+
 </section>
 
 </main> <!-- /main -->

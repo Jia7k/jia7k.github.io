@@ -1,0 +1,33 @@
+---
+title: "Reflection on the use of GenAI"
+---
+
+## Tool Selection
+For this assessment, I utilized **Gemini** as my primary Generative AI assistant. I chose this tool because of its strong capability in handling both natural language processing (for content drafting) and code generation (for Python and Markdown formatting).
+
+## How GenAI Assisted Me
+The AI played the role of a "Pair Programmer" and content strategist throughout the development of this website.
+
+### 1. Content Drafting & Structuring
+I provided the AI with raw details about my personal projects (such as my **Tele-Forex-News-Bot**), and it helped me restructure those points into a professional "Project" page. It automatically applied correct Markdown syntax, such as headers, bolding for emphasis, and blockquotes for challenges.
+
+### 2. Data Visualization
+One of the most helpful aspects was in the creation of the Data Visualization page. I asked the AI to help me visualize my fitness tracking data.
+* It suggested a **bar chart** combined with a **target line** to show nutritional consistency.
+* It generated the actual **Python (Matplotlib)** code to render the graph, which I then documented on the website.
+
+## Benefits and Challenges
+
+| Aspect | Description |
+| :--- | :--- |
+| **Speed** | It significantly reduced the time spent on writing boilerplate code (like the YAML configuration). |
+| **Clarity** | It helped articulate technical concepts (like the Node.js architecture of my bot) more clearly than I could have alone. |
+| **Challenge** | A challenge was ensuring the specific syntax for Quarto (like image alignment) was correct, as the AI sometimes defaults to standard Markdown. |
+
+## Future Application
+Going forward, I see GenAI not as a replacement for coding, but as an accelerator. I plan to use it to:
+1.  **Debug Code:** Quickly identify syntax errors in my C or Node.js projects.
+2.  **Brainstorm:** Generate ideas for features in future software applications.
+
+## Final Thoughts
+Using GenAI allowed me to focus more on the *content* and *story* of my portfolio rather than getting stuck on the syntax details of web development.

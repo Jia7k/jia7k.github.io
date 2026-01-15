@@ -1,0 +1,42 @@
+---
+title: "Data Visualization"
+---
+
+## Tracking Weekly Caloric Consistency
+
+As part of my personal fitness journey, I started collecting data on my daily nutritional intake. The graph below visualizes my caloric consumption over a typical week compared to my maintenance target.
+
+![Figure 1: Weekly Caloric Intake vs. Target Goal](images/graph.png)
+
+### What is Visualized?
+The bar chart displays the total calories consumed (blue bars) for each day of the week, from Monday to Sunday. The red dashed line represents my daily caloric target of **2200 kcal**.
+* **X-axis:** Days of the week.
+* **Y-axis:** Total Calories (kcal).
+* **Data Source:** Personal food logs recorded via MyFitnessPal.
+
+### The Story & Rationale
+**The Story:**
+I noticed my weight was fluctuating despite "feeling" like I was eating consistently. I decided to visualize the data to find the pattern. The visualization reveals a clear trend: I tend to under-eat on weekdays (Wednesday/Sunday) to "save" calories, but then over-consume significantly on Saturdays (2600 kcal), which disrupts my weekly average.
+
+**Rationale for Visualization Choices:**
+* **Bar Chart vs. Line Chart:** I chose a bar chart because daily intake is a discrete total for that specific day, making it easier to compare the magnitude of each day against the others.
+* **Target Line:** Overlaying the red target line provides an immediate "benchmark" for the viewer to see which days were compliant (under/on target) and which were outliers.
+* **Annotations:** I added the exact numerical values on top of the bars so the viewer doesn't have to guess the exact calorie count by looking at the Y-axis.
+
+### Code Implementation
+
+I used Python's `matplotlib` library to generate this chart.
+
+```python
+import matplotlib.pyplot as plt
+
+days = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun']
+intake = [2100, 2250, 1950, 2400, 2150, 2600, 1800]
+target = [2200] * 7
+
+plt.bar(days, intake, color='skyblue', label='Actual Intake')
+plt.plot(days, target, color='red', linestyle='--', label='Target')
+plt.title('Weekly Caloric Intake')
+plt.legend()
+plt.show()
+```

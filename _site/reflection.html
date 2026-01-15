@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Welcome – My Portfolio</title>
+<title>Reflection on the use of GenAI – My Portfolio</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -24,12 +24,12 @@ ul.task-list li input[type="checkbox"] {
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
 <script src="site_libs/clipboard/clipboard.min.js"></script>
 <script src="site_libs/quarto-search/autocomplete.umd.js"></script>
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./favicon.png" rel="icon" type="image/png">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
@@ -42,11 +42,11 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap-5b4ad623e5705c0698d39aec6f10cf02.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
-  "location": "sidebar",
+  "location": "navbar",
   "copy-button": false,
   "collapse-after": 3,
-  "panel-placement": "start",
-  "type": "textbox",
+  "panel-placement": "end",
+  "type": "overlay",
   "limit": 50,
   "keyboard-shortcut": [
     "f",
@@ -73,34 +73,73 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="floating quarto-light">
+<body class="nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">My Portfolio</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./fyp.html"> 
+<span class="menu-text">Project</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./dataviz.html"> 
+<span class="menu-text">Data Viz</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="./reflection.html" aria-current="page"> 
+<span class="menu-text">Reflection</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
-    <nav id="TOC" role="doc-toc" class="toc-active">
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#hello-im-jia-rong" id="toc-hello-im-jia-rong" class="nav-link active" data-scroll-target="#hello-im-jia-rong">Hello, I’m Jia Rong</a>
+  <li><a href="#tool-selection" id="toc-tool-selection" class="nav-link active" data-scroll-target="#tool-selection">Tool Selection</a></li>
+  <li><a href="#how-genai-assisted-me" id="toc-how-genai-assisted-me" class="nav-link" data-scroll-target="#how-genai-assisted-me">How GenAI Assisted Me</a>
   <ul class="collapse">
-  <li><a href="#quick-intro" id="toc-quick-intro" class="nav-link" data-scroll-target="#quick-intro">Quick Intro</a></li>
+  <li><a href="#content-drafting-structuring" id="toc-content-drafting-structuring" class="nav-link" data-scroll-target="#content-drafting-structuring">1. Content Drafting &amp; Structuring</a></li>
+  <li><a href="#data-visualization" id="toc-data-visualization" class="nav-link" data-scroll-target="#data-visualization">2. Data Visualization</a></li>
   </ul></li>
+  <li><a href="#benefits-and-challenges" id="toc-benefits-and-challenges" class="nav-link" data-scroll-target="#benefits-and-challenges">Benefits and Challenges</a></li>
+  <li><a href="#future-application" id="toc-future-application" class="nav-link" data-scroll-target="#future-application">Future Application</a></li>
+  <li><a href="#final-thoughts" id="toc-final-thoughts" class="nav-link" data-scroll-target="#final-thoughts">Final Thoughts</a></li>
   </ul>
 </nav>
-</nav>
-<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
-<!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Welcome</h1>
+<h1 class="title">Reflection on the use of GenAI</h1>
 </div>
 
 
@@ -117,24 +156,60 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="hello-im-jia-rong" class="level2">
-<h2 class="anchored" data-anchor-id="hello-im-jia-rong">Hello, I’m Jia Rong</h2>
-<p>I am currently a student at SIT studying Applied Computing (Fintech). This website documents my projects, visualizations, and learning journey.</p>
-<div class="quarto-figure quarto-figure-left">
-<figure class="figure">
-<p><img src="images/profile_photo.jpg" class="img-fluid quarto-figure quarto-figure-left figure-img" width="300"></p>
-</figure>
-</div>
-<section id="quick-intro" class="level3">
-<h3 class="anchored" data-anchor-id="quick-intro">Quick Intro</h3>
-<ul>
-<li><strong>Focus:</strong> I am passionate about Statistics and Economics.</li>
-<li><strong>Goal:</strong> aspiring to become a Quant trader.</li>
-</ul>
-<p>Check out my <a href="">Project Page</a> to see what I’ve been working on!</p>
-
-
+<section id="tool-selection" class="level2">
+<h2 class="anchored" data-anchor-id="tool-selection">Tool Selection</h2>
+<p>For this assessment, I utilized <strong>Gemini</strong> as my primary Generative AI assistant. I chose this tool because of its strong capability in handling both natural language processing (for content drafting) and code generation (for Python and Markdown formatting).</p>
 </section>
+<section id="how-genai-assisted-me" class="level2">
+<h2 class="anchored" data-anchor-id="how-genai-assisted-me">How GenAI Assisted Me</h2>
+<p>The AI played the role of a “Pair Programmer” and content strategist throughout the development of this website.</p>
+<section id="content-drafting-structuring" class="level3">
+<h3 class="anchored" data-anchor-id="content-drafting-structuring">1. Content Drafting &amp; Structuring</h3>
+<p>I provided the AI with raw details about my personal projects (such as my <strong>Tele-Forex-News-Bot</strong>), and it helped me restructure those points into a professional “Project” page. It automatically applied correct Markdown syntax, such as headers, bolding for emphasis, and blockquotes for challenges.</p>
+</section>
+<section id="data-visualization" class="level3">
+<h3 class="anchored" data-anchor-id="data-visualization">2. Data Visualization</h3>
+<p>One of the most helpful aspects was in the creation of the Data Visualization page. I asked the AI to help me visualize my fitness tracking data. * It suggested a <strong>bar chart</strong> combined with a <strong>target line</strong> to show nutritional consistency. * It generated the actual <strong>Python (Matplotlib)</strong> code to render the graph, which I then documented on the website.</p>
+</section>
+</section>
+<section id="benefits-and-challenges" class="level2">
+<h2 class="anchored" data-anchor-id="benefits-and-challenges">Benefits and Challenges</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Aspect</th>
+<th style="text-align: left;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><strong>Speed</strong></td>
+<td style="text-align: left;">It significantly reduced the time spent on writing boilerplate code (like the YAML configuration).</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Clarity</strong></td>
+<td style="text-align: left;">It helped articulate technical concepts (like the Node.js architecture of my bot) more clearly than I could have alone.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Challenge</strong></td>
+<td style="text-align: left;">A challenge was ensuring the specific syntax for Quarto (like image alignment) was correct, as the AI sometimes defaults to standard Markdown.</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="future-application" class="level2">
+<h2 class="anchored" data-anchor-id="future-application">Future Application</h2>
+<p>Going forward, I see GenAI not as a replacement for coding, but as an accelerator. I plan to use it to: 1. <strong>Debug Code:</strong> Quickly identify syntax errors in my C or Node.js projects. 2. <strong>Brainstorm:</strong> Generate ideas for features in future software applications.</p>
+</section>
+<section id="final-thoughts" class="level2">
+<h2 class="anchored" data-anchor-id="final-thoughts">Final Thoughts</h2>
+<p>Using GenAI allowed me to focus more on the <em>content</em> and <em>story</em> of my portfolio rather than getting stuck on the syntax details of web development.</p>
+
+
 </section>
 
 </main> <!-- /main -->
