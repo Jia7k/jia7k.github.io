@@ -9,6 +9,7 @@ The website is structured as follows:
 - **`index.qmd`**: The homepage introducing myself and my background.
 - **`fyp.qmd`**: A detailed showcase of my **Tele-Forex-News-Bot** (Node.js/Telegram API).
 - **`dataviz.qmd`**: A data visualization page analyzing my weekly fitness and caloric intake using Python.
+- **`hobbies.qmd`**: A page showcasing my hobby.
 - **`reflection.qmd`**: A reflection on the role of Generative AI in my development workflow.
 - **`styles.css`**: Custom CSS for styling the navigation, buttons, and typography.
 - **`_quarto.yml`**: The main configuration file for site navigation and theme.
